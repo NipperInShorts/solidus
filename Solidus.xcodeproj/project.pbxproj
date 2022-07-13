@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5AA36DF26AE477600BE4C83 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA36DE26AE477600BE4C83 /* Launch Screen.storyboard */; };
 		A5BA4D3C26A3B8F600EC1AD9 /* SolidusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */; };
 		A5BA4D3E26A3B8F600EC1AD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3D26A3B8F600EC1AD9 /* ContentView.swift */; };
 		A5BA4D4026A3B8F700EC1AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BA4D3F26A3B8F700EC1AD9 /* Assets.xcassets */; };
 		A5BA4D4326A3B8F700EC1AD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BA4D4226A3B8F700EC1AD9 /* Preview Assets.xcassets */; };
-		A5BA4D4526A3B8F700EC1AD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D4426A3B8F700EC1AD9 /* Persistence.swift */; };
 		A5BA4D4826A3B8F700EC1AD9 /* Solidus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D4626A3B8F700EC1AD9 /* Solidus.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5AA36DE26AE477600BE4C83 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A5BA4D3826A3B8F600EC1AD9 /* Solidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidusApp.swift; sourceTree = "<group>"; };
 		A5BA4D3D26A3B8F600EC1AD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5BA4D3F26A3B8F700EC1AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5BA4D4226A3B8F700EC1AD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A5BA4D4426A3B8F700EC1AD9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A5BA4D4726A3B8F700EC1AD9 /* Solidus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solidus.xcdatamodel; sourceTree = "<group>"; };
 		A5BA4D4926A3B8F700EC1AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,9 +59,9 @@
 				A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */,
 				A5BA4D3D26A3B8F600EC1AD9 /* ContentView.swift */,
 				A5BA4D3F26A3B8F700EC1AD9 /* Assets.xcassets */,
-				A5BA4D4426A3B8F700EC1AD9 /* Persistence.swift */,
 				A5BA4D4926A3B8F700EC1AD9 /* Info.plist */,
 				A5BA4D4626A3B8F700EC1AD9 /* Solidus.xcdatamodeld */,
+				A5AA36DE26AE477600BE4C83 /* Launch Screen.storyboard */,
 				A5BA4D4126A3B8F700EC1AD9 /* Preview Content */,
 			);
 			path = Solidus;
@@ -101,7 +101,7 @@
 		A5BA4D3026A3B8F600EC1AD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					A5BA4D3726A3B8F600EC1AD9 = {
@@ -132,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AA36DF26AE477600BE4C83 /* Launch Screen.storyboard in Resources */,
 				A5BA4D4326A3B8F700EC1AD9 /* Preview Assets.xcassets in Resources */,
 				A5BA4D4026A3B8F700EC1AD9 /* Assets.xcassets in Resources */,
 			);
@@ -144,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BA4D4526A3B8F700EC1AD9 /* Persistence.swift in Sources */,
 				A5BA4D3E26A3B8F600EC1AD9 /* ContentView.swift in Sources */,
 				A5BA4D3C26A3B8F600EC1AD9 /* SolidusApp.swift in Sources */,
 				A5BA4D4826A3B8F700EC1AD9 /* Solidus.xcdatamodeld in Sources */,
@@ -276,6 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Solidus/Preview Content\"";
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				ENABLE_PREVIEWS = YES;
@@ -285,10 +286,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shortsgamestrong.Solidus;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Solidus/Preview Content\"";
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				ENABLE_PREVIEWS = YES;
@@ -307,10 +310,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shortsgamestrong.Solidus;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
