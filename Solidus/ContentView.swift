@@ -84,7 +84,7 @@ struct ContentView: View {
                                 Text(percent)
                                     .padding(.trailing, 4)
                                 Text("%")
-                                    .foregroundColor(Color(#colorLiteral(red: 0.862745098, green: 0.9176470588, blue: 0.9764705882, alpha: 1)))
+                                    .foregroundColor(Color(red: 0.862745098, green: 0.9176470588, blue: 0.9764705882))
                             }
                             .font(.largeTitle)
                             .frame(
@@ -217,8 +217,8 @@ struct ContentView: View {
                                         minHeight: self.buttonHeight()
                                     )
                                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                    .background(Color(#colorLiteral(red: 0.9254901961, green: 0.8078431373, blue: 0.9647058824, alpha: 1)))
-                                    .foregroundColor(Color(#colorLiteral(red: 0.2117647059, green: 0.1647058824, blue: 0.3176470588, alpha: 1)))
+                                    .background(Color(red: 0.9254901961, green: 0.8078431373, blue: 0.9647058824))
+                                    .foregroundColor(Color(red: 0.2117647059, green: 0.1647058824, blue: 0.3176470588))
                                     
                                 } else {
                                     Text(button.rawValue)

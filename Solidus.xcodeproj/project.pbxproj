@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A593AFC0287F250500F6DA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A593AFBF287F250500F6DA81 /* Assets.xcassets */; };
+		A593AFC6287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A593AFCD287F250600F6DA81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593AFCC287F250600F6DA81 /* ContentView.swift */; };
+		A593AFCF287F250600F6DA81 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593AFCE287F250600F6DA81 /* NotificationController.swift */; };
+		A593AFD1287F250600F6DA81 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593AFD0287F250600F6DA81 /* NotificationView.swift */; };
+		A593AFD3287F250600F6DA81 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593AFD2287F250600F6DA81 /* ComplicationController.swift */; };
+		A593AFD5287F250600F6DA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A593AFD4287F250600F6DA81 /* Assets.xcassets */; };
+		A593AFD8287F250600F6DA81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A593AFD7287F250600F6DA81 /* Preview Assets.xcassets */; };
+		A593AFDD287F250600F6DA81 /* WatchSolidus.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A593AFBD287F250500F6DA81 /* WatchSolidus.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A593AFE5287F25D500F6DA81 /* SolidusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */; };
 		A5AA36DF26AE477600BE4C83 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA36DE26AE477600BE4C83 /* Launch Screen.storyboard */; };
 		A5BA4D3C26A3B8F600EC1AD9 /* SolidusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */; };
 		A5BA4D3E26A3B8F600EC1AD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3D26A3B8F600EC1AD9 /* ContentView.swift */; };
@@ -15,7 +25,60 @@
 		A5BA4D4826A3B8F700EC1AD9 /* Solidus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D4626A3B8F700EC1AD9 /* Solidus.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A593AFC7287F250500F6DA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BA4D3026A3B8F600EC1AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A593AFC4287F250500F6DA81;
+			remoteInfo = "WatchSolidus WatchKit Extension";
+		};
+		A593AFDB287F250600F6DA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BA4D3026A3B8F600EC1AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A593AFBC287F250500F6DA81;
+			remoteInfo = WatchSolidus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A51E5B0C287F1E1400C4656D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A593AFDD287F250600F6DA81 /* WatchSolidus.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A593AFE1287F250600F6DA81 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A593AFC6287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A593AFBD287F250500F6DA81 /* WatchSolidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSolidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A593AFBF287F250500F6DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSolidus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A593AFCC287F250600F6DA81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A593AFCE287F250600F6DA81 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A593AFD0287F250600F6DA81 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A593AFD2287F250600F6DA81 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A593AFD4287F250600F6DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A593AFD7287F250600F6DA81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A593AFD9287F250600F6DA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A593AFDA287F250600F6DA81 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A5AA36DE26AE477600BE4C83 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A5BA4D3826A3B8F600EC1AD9 /* Solidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidusApp.swift; sourceTree = "<group>"; };
@@ -27,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A593AFC2287F250500F6DA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5BA4D3526A3B8F600EC1AD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +107,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A593AFBE287F250500F6DA81 /* WatchSolidus */ = {
+			isa = PBXGroup;
+			children = (
+				A593AFBF287F250500F6DA81 /* Assets.xcassets */,
+			);
+			path = WatchSolidus;
+			sourceTree = "<group>";
+		};
+		A593AFC9287F250600F6DA81 /* WatchSolidus WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A593AFCC287F250600F6DA81 /* ContentView.swift */,
+				A593AFCE287F250600F6DA81 /* NotificationController.swift */,
+				A593AFD0287F250600F6DA81 /* NotificationView.swift */,
+				A593AFD2287F250600F6DA81 /* ComplicationController.swift */,
+				A593AFD4287F250600F6DA81 /* Assets.xcassets */,
+				A593AFD9287F250600F6DA81 /* Info.plist */,
+				A593AFDA287F250600F6DA81 /* PushNotificationPayload.apns */,
+				A593AFD6287F250600F6DA81 /* Preview Content */,
+			);
+			path = "WatchSolidus WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A593AFD6287F250600F6DA81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A593AFD7287F250600F6DA81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A5BA4D2F26A3B8F600EC1AD9 = {
 			isa = PBXGroup;
 			children = (
 				A5BA4D3A26A3B8F600EC1AD9 /* Solidus */,
+				A593AFBE287F250500F6DA81 /* WatchSolidus */,
+				A593AFC9287F250600F6DA81 /* WatchSolidus WatchKit Extension */,
 				A5BA4D3926A3B8F600EC1AD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				A5BA4D3826A3B8F600EC1AD9 /* Solidus.app */,
+				A593AFBD287F250500F6DA81 /* WatchSolidus.app */,
+				A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +183,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A593AFBC287F250500F6DA81 /* WatchSolidus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A593AFE2287F250600F6DA81 /* Build configuration list for PBXNativeTarget "WatchSolidus" */;
+			buildPhases = (
+				A593AFBB287F250500F6DA81 /* Resources */,
+				A593AFE1287F250600F6DA81 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A593AFC8287F250500F6DA81 /* PBXTargetDependency */,
+			);
+			name = WatchSolidus;
+			productName = WatchSolidus;
+			productReference = A593AFBD287F250500F6DA81 /* WatchSolidus.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A593AFC4287F250500F6DA81 /* WatchSolidus WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A593AFDE287F250600F6DA81 /* Build configuration list for PBXNativeTarget "WatchSolidus WatchKit Extension" */;
+			buildPhases = (
+				A593AFC1287F250500F6DA81 /* Sources */,
+				A593AFC2287F250500F6DA81 /* Frameworks */,
+				A593AFC3287F250500F6DA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchSolidus WatchKit Extension";
+			productName = "WatchSolidus WatchKit Extension";
+			productReference = A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		A5BA4D3726A3B8F600EC1AD9 /* Solidus */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5BA4D4C26A3B8F700EC1AD9 /* Build configuration list for PBXNativeTarget "Solidus" */;
@@ -85,10 +224,12 @@
 				A5BA4D3426A3B8F600EC1AD9 /* Sources */,
 				A5BA4D3526A3B8F600EC1AD9 /* Frameworks */,
 				A5BA4D3626A3B8F600EC1AD9 /* Resources */,
+				A51E5B0C287F1E1400C4656D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A593AFDC287F250600F6DA81 /* PBXTargetDependency */,
 			);
 			name = Solidus;
 			productName = Solidus;
@@ -104,6 +245,12 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					A593AFBC287F250500F6DA81 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A593AFC4287F250500F6DA81 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					A5BA4D3726A3B8F600EC1AD9 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -123,11 +270,30 @@
 			projectRoot = "";
 			targets = (
 				A5BA4D3726A3B8F600EC1AD9 /* Solidus */,
+				A593AFBC287F250500F6DA81 /* WatchSolidus */,
+				A593AFC4287F250500F6DA81 /* WatchSolidus WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A593AFBB287F250500F6DA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A593AFC0287F250500F6DA81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A593AFC3287F250500F6DA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A593AFD8287F250600F6DA81 /* Preview Assets.xcassets in Resources */,
+				A593AFD5287F250600F6DA81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5BA4D3626A3B8F600EC1AD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +307,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A593AFC1287F250500F6DA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A593AFCF287F250600F6DA81 /* NotificationController.swift in Sources */,
+				A593AFCD287F250600F6DA81 /* ContentView.swift in Sources */,
+				A593AFE5287F25D500F6DA81 /* SolidusApp.swift in Sources */,
+				A593AFD3287F250600F6DA81 /* ComplicationController.swift in Sources */,
+				A593AFD1287F250600F6DA81 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5BA4D3426A3B8F600EC1AD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,7 +331,140 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A593AFC8287F250500F6DA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A593AFC4287F250500F6DA81 /* WatchSolidus WatchKit Extension */;
+			targetProxy = A593AFC7287F250500F6DA81 /* PBXContainerItemProxy */;
+		};
+		A593AFDC287F250600F6DA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A593AFBC287F250500F6DA81 /* WatchSolidus */;
+			targetProxy = A593AFDB287F250600F6DA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A593AFDF287F250600F6DA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchSolidus WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = F49V64PGFU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchSolidus WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchSolidus WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchSolidus_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A593AFE0287F250600F6DA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchSolidus WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = F49V64PGFU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchSolidus WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchSolidus WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchSolidus_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		A593AFE3287F250600F6DA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49V64PGFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchSolidus_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchSolidus;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.justinnipper.solidus;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		A593AFE4287F250600F6DA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49V64PGFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchSolidus_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchSolidus;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.justinnipper.solidus;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
 		A5BA4D4A26A3B8F700EC1AD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,7 +587,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Solidus/Preview Content\"";
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				ENABLE_PREVIEWS = YES;
@@ -286,7 +597,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -300,7 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Solidus/Preview Content\"";
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				ENABLE_PREVIEWS = YES;
@@ -310,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -321,6 +632,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A593AFDE287F250600F6DA81 /* Build configuration list for PBXNativeTarget "WatchSolidus WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A593AFDF287F250600F6DA81 /* Debug */,
+				A593AFE0287F250600F6DA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A593AFE2287F250600F6DA81 /* Build configuration list for PBXNativeTarget "WatchSolidus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A593AFE3287F250600F6DA81 /* Debug */,
+				A593AFE4287F250600F6DA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5BA4D3326A3B8F600EC1AD9 /* Build configuration list for PBXProject "Solidus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
