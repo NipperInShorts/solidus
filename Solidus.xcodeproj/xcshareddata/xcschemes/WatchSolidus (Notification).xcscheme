@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A593AFBC287F250500F6DA81"
-               BuildableName = "WatchSolidus.app"
+               BuildableName = "Solidus.app"
                BlueprintName = "WatchSolidus"
                ReferencedContainer = "container:Solidus.xcodeproj">
             </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A593AFBC287F250500F6DA81"
-            BuildableName = "WatchSolidus.app"
+            BuildableName = "Solidus.app"
             BlueprintName = "WatchSolidus"
             ReferencedContainer = "container:Solidus.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A593AFBC287F250500F6DA81"
-            BuildableName = "WatchSolidus.app"
+            BuildableName = "Solidus.app"
             BlueprintName = "WatchSolidus"
             ReferencedContainer = "container:Solidus.xcodeproj">
          </BuildableReference>
@@ -93,7 +93,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A593AFBC287F250500F6DA81"
-            BuildableName = "WatchSolidus.app"
+            BuildableName = "Solidus.app"
             BlueprintName = "WatchSolidus"
             ReferencedContainer = "container:Solidus.xcodeproj">
          </BuildableReference>
