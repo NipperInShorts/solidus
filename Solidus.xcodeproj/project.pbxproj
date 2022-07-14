@@ -15,7 +15,7 @@
 		A593AFD3287F250600F6DA81 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593AFD2287F250600F6DA81 /* ComplicationController.swift */; };
 		A593AFD5287F250600F6DA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A593AFD4287F250600F6DA81 /* Assets.xcassets */; };
 		A593AFD8287F250600F6DA81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A593AFD7287F250600F6DA81 /* Preview Assets.xcassets */; };
-		A593AFDD287F250600F6DA81 /* WatchSolidus.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A593AFBD287F250500F6DA81 /* WatchSolidus.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A593AFDD287F250600F6DA81 /* Solidus.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A593AFBD287F250500F6DA81 /* Solidus.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A593AFE5287F25D500F6DA81 /* SolidusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */; };
 		A5AA36DF26AE477600BE4C83 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA36DE26AE477600BE4C83 /* Launch Screen.storyboard */; };
 		A5BA4D3C26A3B8F600EC1AD9 /* SolidusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA4D3B26A3B8F600EC1AD9 /* SolidusApp.swift */; };
@@ -49,7 +49,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				A593AFDD287F250600F6DA81 /* WatchSolidus.app in Embed Watch Content */,
+				A593AFDD287F250600F6DA81 /* Solidus.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A593AFBD287F250500F6DA81 /* WatchSolidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSolidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A593AFBD287F250500F6DA81 /* Solidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A593AFBF287F250500F6DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSolidus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A593AFCC287F250600F6DA81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BA4D3826A3B8F600EC1AD9 /* Solidus.app */,
-				A593AFBD287F250500F6DA81 /* WatchSolidus.app */,
+				A593AFBD287F250500F6DA81 /* Solidus.app */,
 				A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -197,7 +197,7 @@
 			);
 			name = WatchSolidus;
 			productName = WatchSolidus;
-			productReference = A593AFBD287F250500F6DA81 /* WatchSolidus.app */;
+			productReference = A593AFBD287F250500F6DA81 /* Solidus.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		A593AFC4287F250500F6DA81 /* WatchSolidus WatchKit Extension */ = {
@@ -423,12 +423,11 @@
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchSolidus_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = WatchSolidus;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.justinnipper.solidus;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Solidus;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -450,12 +449,11 @@
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchSolidus_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = WatchSolidus;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.justinnipper.solidus;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Solidus;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -597,7 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -621,7 +619,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
