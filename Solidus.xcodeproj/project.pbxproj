@@ -80,7 +80,7 @@
 		A55B8146288076F400B0CE02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A55B8148288076F400B0CE02 /* Solidus_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solidus_Mac.entitlements; sourceTree = "<group>"; };
 		A55B814C28808E1A00B0CE02 /* Solidus-Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Solidus-Mac-Info.plist"; sourceTree = SOURCE_ROOT; };
-		A593AFBD287F250500F6DA81 /* WatchSolidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSolidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A593AFBD287F250500F6DA81 /* Solidus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solidus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A593AFBF287F250500F6DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSolidus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A593AFCC287F250600F6DA81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
