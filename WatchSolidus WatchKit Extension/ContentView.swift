@@ -297,11 +297,9 @@ struct ContentView: View {
                 percent = "\(percent)\(button.rawValue)"
             }
         case .none:
-            if (button != .delete) {
-                activeInput = .percent
-                if (percent != "0") {
-                    percent = "0"
-                }
+            activeInput = .percent
+            if (percent != "0") {
+                percent = "0"
             }
             didTap(button: button)
         }
