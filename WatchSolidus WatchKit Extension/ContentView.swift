@@ -219,9 +219,11 @@ struct ContentView: View {
         switch percentAction {
         case .off:
             var runningTotal = ((percentNumber / 100) * amountNumber)
-            runningTotal = amountNumber - runningTotal
+            if (runningTotal > 0) {
+                runningTotal = amountNumber - runningTotal
+            }
             if (runningTotal <= 0) {
-                total = String(format: "%.2f", 0)
+                total = "0.00"
             } else {
                 total = String(format: "%.2f", runningTotal)
             }
