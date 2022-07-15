@@ -42,7 +42,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         
         if let statusButton  = statusItem.button {
-            statusButton.image = NSImage(named: NSImage.Name("StatusBarIcon"))
+            statusButton.image = NSImage(named: NSImage.Name("BarIcon"))
             statusButton.action = #selector(togglePopover(_:))
             statusButton.target = self
         }
