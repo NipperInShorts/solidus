@@ -107,7 +107,6 @@ struct CustomTextField: NSViewRepresentable {
     }
     
     func updateNSView(_ nsView: NSViewType, context: Context) {
-        print(text)
         nsView.string = text
     }
     
@@ -119,7 +118,6 @@ struct CustomTextField: NSViewRepresentable {
         }
         
         func textView(_ textView: NSTextView, shouldChangeTextIn affectedCharRange: NSRange, replacementString: String?) -> Bool {
-            print("HERE THO")
             if (textView.string.count >= 10 && !textView.string.isEmpty && !(replacementString?.isEmpty ?? false)) {
                 return false
             }
@@ -132,14 +130,13 @@ struct CustomTextField: NSViewRepresentable {
             } else if (replacementString?.rangeOfCharacter(from: invalidCharacters) == nil) {
                 if (textView.string == "0" && replacementString != "0" && replacementString != ".") {
                     textView.string = replacementString!
-                    return false
+                    return true
                 }
                 // we have valid characters
                 // check for presence of decimal and dont allow another
                 if textView.string.contains(where: {$0 == "."}) && replacementString == "." {
                     return false
                 }
-                
                 return true
             }
             return false
@@ -149,7 +146,7 @@ struct CustomTextField: NSViewRepresentable {
             guard let textView = notification.object as? NSTextView else { return }
             self.parent.text = textView.string
         }
-        
+
         func textDidChange(_ notification: Notification) {
             guard let textView = notification.object as? NSTextView else { return }
             self.parent.text = textView.string
@@ -159,11 +156,12 @@ struct CustomTextField: NSViewRepresentable {
 }
 
 struct ContentView: View {
-    @State var percent = "0"
-    @State var amount = "0"
+    
+    @State var percent = ""
+    @State var amount = ""
     @State var total = "0.00"
     @State var percentAction: PercentAction = .off
-    @State var activeInput: ActiveInput = .none
+    
     @Namespace var animation
     
     enum ActiveInput {
@@ -176,12 +174,38 @@ struct ContentView: View {
         case off = "Off"
         case of = "Of"
     }
+
+    
+    func calculateAmounts() {
+        let percentNumber = Double(percent) ?? 0
+        let amountNumber = Double(amount) ?? 0
+        switch percentAction {
+        case .off:
+            var runningTotal = ((percentNumber / 100) * amountNumber)
+            runningTotal = amountNumber - runningTotal
+            if (runningTotal <= 0) {
+                total = String(format: "%.2f", 0)
+            } else {
+                total = String(format: "%.2f", runningTotal)
+            }
+        case .of:
+            let runningTotal = ((percentNumber / 100) * amountNumber)
+            total = String(format: "%.2f", runningTotal)
+        }
+    }
     
     var body: some View {
         VStack(alignment: .leading) {
             Controls()
                 .padding(.bottom)
-            
+            Button {
+                percent = ""
+                amount = ""
+                percentAction = .off
+            } label: {
+                Text("Clear")
+            }
+
             VStack(spacing: 16) {
                 VStack(alignment: .trailing, spacing: 4) {
                     Text("Percent")
@@ -199,6 +223,12 @@ struct ContentView: View {
                         .visualEffect(material: .popover, blendingMode: .withinWindow, emphasized: true)
                         .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
                 }
+                .onChange(of: percent, perform: { newValue in
+                    calculateAmounts()
+                })
+                .onChange(of: amount, perform: { newValue in
+                    calculateAmounts()
+                })
                 .padding(.horizontal)
                 .frame(maxHeight: 50)
             }
@@ -209,7 +239,7 @@ struct ContentView: View {
                 Text("Total:")
                     .bold()
                 Spacer()
-                Text("100.44")
+                Text(total)
             }
         }
         .padding()
@@ -242,9 +272,9 @@ struct ContentView: View {
                     .onTapGesture {
                         withAnimation {
                             percentAction = action
+                            calculateAmounts()
                         }
                     }
-                
             }
         }
         .padding(2)
