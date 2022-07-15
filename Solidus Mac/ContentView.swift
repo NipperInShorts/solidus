@@ -7,6 +7,157 @@
 
 import SwiftUI
 
+struct VisualEffectMaterialKey: EnvironmentKey {
+    typealias Value = NSVisualEffectView.Material?
+    static var defaultValue: Value = nil
+}
+
+struct VisualEffectBlendingKey: EnvironmentKey {
+    typealias Value = NSVisualEffectView.BlendingMode?
+    static var defaultValue: Value = nil
+}
+
+struct VisualEffectEmphasizedKey: EnvironmentKey {
+    typealias Value = Bool?
+    static var defaultValue: Bool? = nil
+}
+
+extension EnvironmentValues {
+    var visualEffectMaterial: NSVisualEffectView.Material? {
+        get { self[VisualEffectMaterialKey.self] }
+        set { self[VisualEffectMaterialKey.self] = newValue }
+    }
+    
+    var visualEffectBlending: NSVisualEffectView.BlendingMode? {
+        get { self[VisualEffectBlendingKey.self] }
+        set { self[VisualEffectBlendingKey.self] = newValue }
+    }
+    
+    var visualEffectEmphasized: Bool? {
+        get { self[VisualEffectEmphasizedKey.self] }
+        set { self[VisualEffectEmphasizedKey.self] = newValue }
+    }
+}
+
+struct VisualEffectBackground: NSViewRepresentable {
+    private let material: NSVisualEffectView.Material
+    private let blendingMode: NSVisualEffectView.BlendingMode
+    private let isEmphasized: Bool
+    
+    fileprivate init(
+        material: NSVisualEffectView.Material,
+        blendingMode: NSVisualEffectView.BlendingMode,
+        emphasized: Bool) {
+            self.material = material
+            self.blendingMode = blendingMode
+            self.isEmphasized = emphasized
+        }
+    
+    func makeNSView(context: Context) -> NSVisualEffectView {
+        let view = NSVisualEffectView()
+        
+        // Not certain how necessary this is
+        view.autoresizingMask = [.width, .height]
+        
+        return view
+    }
+    
+    func updateNSView(_ nsView: NSVisualEffectView, context: Context) {
+        nsView.material = context.environment.visualEffectMaterial ?? material
+        nsView.blendingMode = context.environment.visualEffectBlending ?? blendingMode
+        nsView.isEmphasized = context.environment.visualEffectEmphasized ?? isEmphasized
+    }
+}
+
+extension View {
+    func visualEffect(
+        material: NSVisualEffectView.Material,
+        blendingMode: NSVisualEffectView.BlendingMode = .behindWindow,
+        emphasized: Bool = false
+    ) -> some View {
+        background(
+            VisualEffectBackground(
+                material: material,
+                blendingMode: blendingMode,
+                emphasized: emphasized
+            )
+        )
+    }
+}
+
+struct CustomTextField: NSViewRepresentable {
+    typealias NSViewType = NSTextView
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    
+    @Binding var text: String
+    
+    func makeNSView(context: Context) -> NSTextView {
+        let view = NSTextView()
+        
+        view.drawsBackground = false
+        view.delegate = context.coordinator
+        view.textContainerInset = NSSize(width: 8, height: 8)
+        view.alignment = .right
+        
+        return view
+    }
+    
+    func updateNSView(_ nsView: NSViewType, context: Context) {
+        print(text)
+        nsView.string = text
+    }
+    
+    class Coordinator: NSObject, NSTextViewDelegate {
+        let parent: CustomTextField
+        
+        init (_ textField: CustomTextField) {
+            self.parent = textField
+        }
+        
+        func textView(_ textView: NSTextView, shouldChangeTextIn affectedCharRange: NSRange, replacementString: String?) -> Bool {
+            print("HERE THO")
+            if (textView.string.count >= 10 && !textView.string.isEmpty && !(replacementString?.isEmpty ?? false)) {
+                return false
+            }
+            
+            let invalidCharacters = CharacterSet(charactersIn: "0123456789.").inverted
+            
+            // check for valid characters
+            if textView.string == "0" && replacementString!.isEmpty {
+                return false
+            } else if (replacementString?.rangeOfCharacter(from: invalidCharacters) == nil) {
+                if (textView.string == "0" && replacementString != "0" && replacementString != ".") {
+                    textView.string = replacementString!
+                    return false
+                }
+                // we have valid characters
+                // check for presence of decimal and dont allow another
+                if textView.string.contains(where: {$0 == "."}) && replacementString == "." {
+                    return false
+                }
+                
+                return true
+            }
+            return false
+        }
+        
+        func textDidBeginEditing(_ notification: Notification) {
+            guard let textView = notification.object as? NSTextView else { return }
+            self.parent.text = textView.string
+        }
+        
+        func textDidChange(_ notification: Notification) {
+            guard let textView = notification.object as? NSTextView else { return }
+            self.parent.text = textView.string
+        }
+    }
+    
+}
+
 struct ContentView: View {
     @State var percent = "0"
     @State var amount = "0"
@@ -29,28 +180,39 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Controls()
-            Spacer()
-            HStack {
-                VStack {
-                    VStack {
-                        Text("Percent")
-                        Text("12.5%")
-                    }
-                    VStack {
-                        Text("Amount")
-                        Text("12.00")
-                    }
+                .padding(.bottom)
+            
+            VStack(spacing: 16) {
+                VStack(alignment: .trailing, spacing: 4) {
+                    Text("Percent")
+                        .bold()
+                    CustomTextField(text: $percent)
+                        .visualEffect(material: .popover, blendingMode: .withinWindow, emphasized: true)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
                 }
+                .padding(.horizontal)
+                .frame(maxHeight: 50)
+                VStack(alignment: .trailing, spacing: 4) {
+                    Text("Amount")
+                        .bold()
+                    CustomTextField(text: $amount)
+                        .visualEffect(material: .popover, blendingMode: .withinWindow, emphasized: true)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                }
+                .padding(.horizontal)
+                .frame(maxHeight: 50)
             }
-            Spacer()
+            
+            Divider()
+                .padding(.top)
             HStack {
                 Text("Total:")
+                    .bold()
+                Spacer()
                 Text("100.44")
             }
-            Spacer()
         }
         .padding()
-        .frame(minWidth: 200, minHeight: 200, alignment: .leading)
     }
     
     @ViewBuilder
@@ -90,7 +252,6 @@ struct ContentView: View {
             Color.black.opacity(0.4)
                 .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
         }
-    
     }
 }
 
