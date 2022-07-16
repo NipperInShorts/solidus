@@ -19,10 +19,12 @@ struct Solidus_MacApp: App {
     }
 }
 
+
 class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
     
     private var statusItem: NSStatusItem!
     private var popover: NSPopover = NSPopover()
+    let menu = NSMenu()
     
     func applicationDidFinishLaunching(_ notification: Notification) {
         
@@ -30,6 +32,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         if let window = NSApplication.shared.windows.first {
             window.close()
         }
+        
+        let item = NSMenuItem(title: "Quit", action: #selector(terminateApp), keyEquivalent: "Q")
+        menu.addItem(item)
     }
     
     func setupMenu() {
@@ -40,11 +45,30 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         popover.contentViewController?.view = NSHostingView(rootView: ContentView())
         
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
-        
         if let statusButton  = statusItem.button {
             statusButton.image = NSImage(named: NSImage.Name("BarIcon"))
-            statusButton.action = #selector(togglePopover(_:))
+            statusButton.action = #selector(handleStatusBarClick(sender:))
             statusButton.target = self
+            statusButton.sendAction(on: [.leftMouseUp, .rightMouseUp])
+        }
+    }
+    
+    @objc func terminateApp() {
+        NSApplication.shared.terminate(nil)
+    }
+    
+    @objc func handleStatusBarClick(sender: NSStatusBarButton) {
+        let event = NSApp.currentEvent!
+        
+        if event.type == .rightMouseUp {
+            if popover.isShown {
+                hidePopover(sender)
+            }
+            statusItem.menu = menu
+            statusItem?.button?.performClick(nil)
+            statusItem.menu = nil
+        } else {
+            togglePopover(sender)
         }
     }
     
