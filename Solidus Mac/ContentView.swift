@@ -198,14 +198,6 @@ struct ContentView: View {
         VStack(alignment: .leading) {
             Controls()
                 .padding(.bottom)
-            Button {
-                percent = ""
-                amount = ""
-                percentAction = .off
-            } label: {
-                Text("Clear")
-            }
-
             VStack(spacing: 16) {
                 VStack(alignment: .trailing, spacing: 4) {
                     Text("Percent")
@@ -240,6 +232,22 @@ struct ContentView: View {
                     .bold()
                 Spacer()
                 Text(total)
+            }
+            HStack {
+                Button {
+                    percent = ""
+                    amount = ""
+                    percentAction = .off
+                } label: {
+                    Text("Clear")
+                }
+                Spacer()
+                Button {
+                    NSApplication.shared.terminate(nil)
+                } label: {
+                    Text("Quit")
+                }
+
             }
         }
         .padding()
