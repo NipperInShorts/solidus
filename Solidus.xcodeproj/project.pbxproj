@@ -72,7 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A55B813D288076F300B0CE02 /* Solidus Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solidus Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55B813D288076F300B0CE02 /* Solidus Percent Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solidus Percent Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55B813F288076F300B0CE02 /* Solidus_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solidus_MacApp.swift; sourceTree = "<group>"; };
 		A55B8141288076F300B0CE02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A55B8143288076F400B0CE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 				A5BA4D3826A3B8F600EC1AD9 /* Solidus.app */,
 				A593AFBD287F250500F6DA81 /* Solidus.app */,
 				A593AFC5287F250500F6DA81 /* WatchSolidus WatchKit Extension.appex */,
-				A55B813D288076F300B0CE02 /* Solidus Mac.app */,
+				A55B813D288076F300B0CE02 /* Solidus Percent Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A55B813C288076F300B0CE02 /* Solidus Mac */ = {
+		A55B813C288076F300B0CE02 /* Solidus Percent Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A55B814B288076F400B0CE02 /* Build configuration list for PBXNativeTarget "Solidus Mac" */;
+			buildConfigurationList = A55B814B288076F400B0CE02 /* Build configuration list for PBXNativeTarget "Solidus Percent Calculator" */;
 			buildPhases = (
 				A55B8139288076F300B0CE02 /* Sources */,
 				A55B813A288076F300B0CE02 /* Frameworks */,
@@ -236,9 +236,9 @@
 			);
 			dependencies = (
 			);
-			name = "Solidus Mac";
+			name = "Solidus Percent Calculator";
 			productName = "Solidus Mac";
-			productReference = A55B813D288076F300B0CE02 /* Solidus Mac.app */;
+			productReference = A55B813D288076F300B0CE02 /* Solidus Percent Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A593AFBC287F250500F6DA81 /* WatchSolidus */ = {
@@ -333,7 +333,7 @@
 				A5BA4D3726A3B8F600EC1AD9 /* Solidus */,
 				A593AFBC287F250500F6DA81 /* WatchSolidus */,
 				A593AFC4287F250500F6DA81 /* WatchSolidus WatchKit Extension */,
-				A55B813C288076F300B0CE02 /* Solidus Mac */,
+				A55B813C288076F300B0CE02 /* Solidus Percent Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -776,7 +776,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A55B814B288076F400B0CE02 /* Build configuration list for PBXNativeTarget "Solidus Mac" */ = {
+		A55B814B288076F400B0CE02 /* Build configuration list for PBXNativeTarget "Solidus Percent Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A55B8149288076F400B0CE02 /* Debug */,

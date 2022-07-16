@@ -4,5 +4,7 @@
 <dict>
 	<key>LSUIElement</key>
 	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>Solidus: A Percent Calculator</string>
 </dict>
 </plist>
