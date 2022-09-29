@@ -51,6 +51,7 @@ struct ContentView: View {
     
     
     var body: some View {
+        Spacer()
         VStack(spacing: 2) {
             HStack {
                 Button {
@@ -72,17 +73,7 @@ struct ContentView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .buttonStyle(.plain)
-                Button {
-                    presentSheet = true
-                } label: {
-                    Text(percentAction == .off ? "Off" : "Of")
-                        .font(.system(size: 10, weight: .medium))
-                        .padding()
-                        .background(Color(red: 0.9098039216, green: 0.9529411765, blue: 1))
-                        .foregroundColor(Color(red: 0.1647058824, green: 0.1921568627, blue: 0.3176470588))
-                        .cornerRadius(22)
-                }
-                .buttonStyle(.plain)
+                ActionButton()
                 Button {
                     activeInput = .amount
                 } label: {
@@ -100,7 +91,6 @@ struct ContentView: View {
             }
             .buttonStyle(.plain)
             HStack {
-                ActionButton()
                 Spacer()
                 Text("Total")
                     .font(.footnote)
@@ -118,23 +108,24 @@ struct ContentView: View {
                                 Image(systemName: button.rawValue)
                                     .frame(
                                         maxWidth: .infinity,
-                                        minHeight: 20, maxHeight: .infinity)
+                                        maxHeight: .infinity
+                                    )
+                                    .padding(6)
                                     .background(Color(red: 0.9254901961, green: 0.8078431373, blue: 0.9647058824))
                                     .foregroundColor(Color(red: 0.2117647059, green: 0.1647058824, blue: 0.3176470588))
                             } else {
                                 Text(button.rawValue)
                                     .frame(
                                         maxWidth: .infinity,
-                                        minHeight: 20, maxHeight: .infinity)
+                                        maxHeight: .infinity
+                                    )
+                                    .padding(4)
                                     .background(Color(red: 0.9254901961, green: 0.8078431373, blue: 0.9647058824))
                                     .foregroundColor(Color(red: 0.2117647059, green: 0.1647058824, blue: 0.3176470588))
                             }
                         }
                         .buttonStyle(.plain)
-                        .frame(
-                            maxWidth: .infinity,
-                            minHeight: 20, maxHeight: .infinity)
-                        .cornerRadius(8)
+                        .cornerRadius(16)
                     }
                 }
             }
@@ -147,12 +138,14 @@ struct ContentView: View {
             Button {
                 presentSheet = true
             } label: {
-                Image(systemName: "ellipsis")
+                Text(percentAction == .off ? "Off" : "Of")
+                    .font(.system(size: 10, weight: .medium))
+                    .padding()
+                    .background(Color(red: 0.9098039216, green: 0.9529411765, blue: 1))
+                    .foregroundColor(Color(red: 0.1647058824, green: 0.1921568627, blue: 0.3176470588))
+                    .cornerRadius(22)
             }
             .buttonStyle(.plain)
-            .frame(
-                minHeight: 20,
-                maxHeight: .infinity)
             .confirmationDialog("Choose Action", isPresented: $presentSheet, actions: {
                 Button {
                     percentAction = .off
@@ -181,12 +174,14 @@ struct ContentView: View {
             Button {
                 presentSheet = true
             } label: {
-                Image(systemName: "ellipsis")
+                Text(percentAction == .off ? "Off" : "Of")
+                    .font(.system(size: 10, weight: .medium))
+                    .padding()
+                    .background(Color(red: 0.9098039216, green: 0.9529411765, blue: 1))
+                    .foregroundColor(Color(red: 0.1647058824, green: 0.1921568627, blue: 0.3176470588))
+                    .cornerRadius(22)
             }
             .buttonStyle(.plain)
-            .frame(
-                minHeight: 20,
-                maxHeight: .infinity)
             .actionSheet(isPresented: $presentSheet) {
                 ActionSheet(title: Text("Choose Action"), buttons: [
                     .cancel(),
