@@ -441,7 +441,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Solidus-Mac-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Solidus: A Percent Calculator";
+				INFOPLIST_KEY_CFBundleDisplayName = "Percent Off";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Justin Nipper";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,7 +449,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1..2.2;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justinnipper.Solidus-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -474,7 +474,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Solidus-Mac-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Solidus: A Percent Calculator";
+				INFOPLIST_KEY_CFBundleDisplayName = "Percent Off";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Justin Nipper";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +482,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1..2.2;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justinnipper.Solidus-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -569,9 +569,10 @@
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchSolidus_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Percent Off";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.justinnipper.solidus;
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp;
 				PRODUCT_NAME = Solidus;
 				SDKROOT = watchos;
@@ -595,9 +596,10 @@
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchSolidus_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Percent Off";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.justinnipper.solidus;
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus.watchkitapp;
 				PRODUCT_NAME = Solidus;
 				SDKROOT = watchos;
@@ -736,12 +738,14 @@
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Solidus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Percent Off";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -760,12 +764,14 @@
 				DEVELOPMENT_TEAM = F49V64PGFU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Solidus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Percent Off";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinnipper.solidus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
