@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.requestReview) private var requestReview
     @State var percent = "0"
     @State var amount = "0"
     @State var total = "0.00"
@@ -253,6 +254,13 @@ struct ContentView: View {
         .edgesIgnoringSafeArea(.all)
         .onTapGesture {
             activeInput = .none
+        }
+        .onChange(of: scenePhase) { oldPhase, newPhase in
+            if newPhase == .active {
+                ReviewRequestManager.shared.incrementVisitCountAndCheckForReview {
+                    requestReview()
+                }
+            }
         }
     }
     
