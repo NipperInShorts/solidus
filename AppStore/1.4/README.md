@@ -1,7 +1,7 @@
 # Solidus 1.4 release preparation
 
 App Store Connect app: 1577127191 (`com.justinnipper.solidus`), profile `default`.
-Draft version: eaa9347e-0bd9-4235-8f2c-0461b49ad074, manual release, Prepare for Submission.
+Version: eaa9347e-0bd9-4235-8f2c-0461b49ad074, manual release, Waiting for Review.
 English localization: 1e338112-a6c9-4cb6-b151-a397e915694b.
 
 `release-notes.txt` is saved to the draft's en-US What's New field. Existing description, keywords, URLs, and existing non-Duo placements are preserved.
@@ -26,7 +26,7 @@ app-shots --profile default --json upload --manifest AppStore/1.4/rendered/manif
 
 ## Build and validation
 
-Release archive: `/tmp/Solidus-1.4.xcarchive`, version 1.4 (1), signed iPhone app with embedded Watch companion; `ARCHIVE SUCCEEDED`. App Store distribution upload succeeded on October 24, 2026. Apple is processing version 1.4 (1); the final build and review IDs are recorded in `release-status.json` when available. The upload used the existing local Apple Distribution identity with new App Store profiles for the iPhone and Watch bundles; cloud signing was unavailable for the API key. `ExportOptions.plist` records the signing configuration and `signing-profiles.json` records profile IDs without private signing material. App Review submission is being prepared.
+Release archive: `/tmp/Solidus-1.4.xcarchive`, version 1.4 (1), signed iPhone app with embedded Watch companion; `ARCHIVE SUCCEEDED`. App Store distribution upload succeeded on October 24, 2026. Apple validated version 1.4 (1), and that exact build was attached to the 1.4 release. The final build and review IDs are recorded in `release-status.json`. The upload used the existing local Apple Distribution identity with new App Store profiles for the iPhone and Watch bundles; cloud signing was unavailable for the API key. `ExportOptions.plist` records the signing configuration and `signing-profiles.json` records profile IDs without private signing material. App Review submission succeeded on October 24, 2026 at 11:08:48 UTC. The submission and version were read back as `WAITING_FOR_REVIEW`, and the approved release notes and build attachment were verified. The release remains configured for manual publication after approval.
 
 Earlier validation: 39 calculation/layout unit tests, five regular-iPhone UI checks, and the exact portrait half-fold regression passed. See `../../TESTING.md` for scope and remaining release-matrix checks.
 
@@ -35,3 +35,7 @@ Xcode was updated from beta build 27A9269 to build 27A9275 during this session. 
 Apple references:
 - https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications
 - https://developer.apple.com/app-store/asset-best-practices/
+
+## Review submission tooling
+
+The CLI initially inferred the live 1.3 version from the new empty submission. Direct Apple API inspection verified that its items list was empty; no 1.3 item was removed or changed. Version 1.4 was added with `POST /v1/reviewSubmissionItems` after its build became valid. The high-level submit command then succeeded and verified Waiting for Review for version 1.4.

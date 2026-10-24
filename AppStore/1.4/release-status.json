@@ -1,0 +1,19 @@
+{
+  "app_id": "1577127191",
+  "bundle_identifier": "com.justinnipper.solidus",
+  "version": "1.4",
+  "build_number": "1",
+  "build_id": "c80c48cd-709e-46ec-872d-ab76fdfe8e6a",
+  "build_processing_state": "VALID",
+  "version_id": "eaa9347e-0bd9-4235-8f2c-0461b49ad074",
+  "state": "WAITING_FOR_REVIEW",
+  "release_type": "MANUAL",
+  "review_submission_id": "fbec9341-b043-41f6-85ba-e054f2120bcd",
+  "review_item_ids": [
+    "ZmJlYzkzNDEtYjA0My00MWY2LTg1YmEtZTA1NGYyMTIwYmNkfDZ8ODkzNzgxMjk0"
+  ],
+  "submitted_at": "2026-10-24T11:08:48.77Z",
+  "source_commit": "86aeea76843c57ff56250c8cf0f69d4a90679043",
+  "screenshots": "Three en-US Duo screenshots uploaded and order verified.",
+  "release_notes": "Approved notes verified against App Store Connect."
+}
