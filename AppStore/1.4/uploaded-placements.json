@@ -1,0 +1,679 @@
+{
+  "ok": true,
+  "kind": "placements",
+  "data": {
+    "data": [
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T10:50:15.693338Z",
+          "lastModifiedDate": "2026-10-24T10:50:15.693338Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_DUO_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "fb000005-e010-8d17-8f33-a016613e49cb",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/fb000005-e010-8d17-8f33-a016613e49cb"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "7b400005-e010-8d17-8009-fa58a31c6377",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T10:50:16.239615Z",
+          "lastModifiedDate": "2026-10-24T10:50:16.239615Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_DUO_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "08800005-e010-8d17-8f03-b433ab5d1e33",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/08800005-e010-8d17-8f03-b433ab5d1e33"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "bf400005-e010-8d17-8025-e45fefa34f84",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T10:50:16.633803Z",
+          "lastModifiedDate": "2026-10-24T10:50:16.633803Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_DUO_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "c7400005-e010-8d17-8f21-10a2c37d56d1",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/c7400005-e010-8d17-8f21-10a2c37d56d1"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "27800005-e010-8d17-8004-391930730d1a",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_HOME_BUTTON_LARGE_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "c8000005-e010-8d17-8f0e-4fc1d5bb3aa8",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/c8000005-e010-8d17-8f0e-4fc1d5bb3aa8"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "81400005-e010-8d17-8030-87d433617fd1",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_HOME_BUTTON_LARGE_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "ce800005-e010-8d17-8f01-21a2576c6304",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/ce800005-e010-8d17-8f01-21a2576c6304"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "f1400005-e010-8d17-8016-9e47ba1706c8",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_HOME_BUTTON_LARGE_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "5b400005-e010-8d17-8f1e-ca23f5f42c22",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/5b400005-e010-8d17-8f1e-ca23f5f42c22"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "75400005-e010-8d17-8024-a734f4fed4aa",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_FACE_ID_LARGE_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "e1400005-e010-8d17-8f10-ee3d407426b9",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/e1400005-e010-8d17-8f10-ee3d407426b9"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "0e400005-e010-8d17-8037-aaee9ea16d9b",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_FACE_ID_LARGE_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "e4800005-e010-8d17-8f33-c9c1160ee3d8",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/e4800005-e010-8d17-8f33-c9c1160ee3d8"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "69800005-e010-8d17-8006-b0d2eb65030d",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "IPHONE_FACE_ID_LARGE_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "0a800005-e010-8d17-8f13-aa5a0033cfb6",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/0a800005-e010-8d17-8f13-aa5a0033cfb6"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "c2c00005-e010-8d17-8003-698204ffd3b2",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "WATCH_ULTRA_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "08800005-e010-8d17-8f21-0c4ec7e6e4e7",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/08800005-e010-8d17-8f21-0c4ec7e6e4e7"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "29000005-e010-8d17-8019-286c4c7e4d2a",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "WATCH_ULTRA_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "4a400005-e010-8d17-8f3d-75a08b70f796",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/4a400005-e010-8d17-8f3d-75a08b70f796"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "3a800005-e010-8d17-8013-9ecc8179ec54",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      },
+      {
+        "attributes": {
+          "createdDate": "2026-10-24T00:05:12.298129Z",
+          "lastModifiedDate": "2026-10-24T00:05:12.298129Z",
+          "mediaType": "IMAGE",
+          "placementGroup": "WATCH_ULTRA_PROFILE",
+          "placementType": "APP_SCREENSHOT",
+          "state": "ACTIVE",
+          "stateDetails": null
+        },
+        "id": "77000005-e010-8d17-8f0a-a334386c2f85",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/77000005-e010-8d17-8f0a-a334386c2f85"
+        },
+        "relationships": {
+          "image": {
+            "data": {
+              "id": "98000005-e010-8d17-8007-65e31a7ea7ed",
+              "type": "appAssetLibraryImages"
+            }
+          }
+        },
+        "type": "appAssetLibraryPlacements"
+      }
+    ],
+    "included": [
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2026-10-24T10:50:08.93679Z",
+          "fileName": "percentage.png",
+          "fileSize": 237747,
+          "imageAsset": {
+            "height": 2034,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/P8BGS31I88nGtLpaYI4yFg/{w}x{h}bb.{f}",
+            "width": 1398
+          },
+          "lastModifiedDate": "2026-10-24T10:50:11.691718Z",
+          "referenceName": "app-shots:1f57212b0cb1bd9227bbef3b5fe161031d637868fd611d960fd74282d4b49fb4",
+          "specId": "205e7ab6-a23a-4ee2-b327-0a99ec2a2520",
+          "state": "PREPARE_FOR_SUBMISSION",
+          "stateDetails": null
+        },
+        "id": "27800005-e010-8d17-8004-391930730d1a",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/27800005-e010-8d17-8004-391930730d1a"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/27800005-e010-8d17-8004-391930730d1a/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/27800005-e010-8d17-8004-391930730d1a/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2026-10-24T10:50:01.54188Z",
+          "fileName": "discount.png",
+          "fileSize": 242406,
+          "imageAsset": {
+            "height": 2034,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/pLDJx11VNcQV50l6ydMy3g/{w}x{h}bb.{f}",
+            "width": 1398
+          },
+          "lastModifiedDate": "2026-10-24T10:50:05.109917Z",
+          "referenceName": "app-shots:76bcae7b8dd03f6d6377b3ecf0dc58afa3be2a1111c906e3c2f53c3b2b2e20a7",
+          "specId": "205e7ab6-a23a-4ee2-b327-0a99ec2a2520",
+          "state": "PREPARE_FOR_SUBMISSION",
+          "stateDetails": null
+        },
+        "id": "bf400005-e010-8d17-8025-e45fefa34f84",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/bf400005-e010-8d17-8025-e45fefa34f84"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/bf400005-e010-8d17-8025-e45fefa34f84/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/bf400005-e010-8d17-8025-e45fefa34f84/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2026-10-24T10:49:54.156457Z",
+          "fileName": "duo-workspace.png",
+          "fileSize": 225811,
+          "imageAsset": {
+            "height": 2853,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/_S4UZP8mJMVMzr5xjFS2TA/{w}x{h}bb.{f}",
+            "width": 2007
+          },
+          "lastModifiedDate": "2026-10-24T10:49:57.876387Z",
+          "referenceName": "app-shots:ba4429c4ccfcfba4f7fde5a5c7c5e564d19927a29ad3d5d58b03bb941f74e07a",
+          "specId": "5d458eef-8339-4a1f-a484-83d53834cfec",
+          "state": "PREPARE_FOR_SUBMISSION",
+          "stateDetails": null
+        },
+        "id": "7b400005-e010-8d17-8009-fa58a31c6377",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/7b400005-e010-8d17-8009-fa58a31c6377"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/7b400005-e010-8d17-8009-fa58a31c6377/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/7b400005-e010-8d17-8009-fa58a31c6377/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-09-29T06:38:37Z",
+          "fileName": "Simulator Screen Shot - Apple Watch Ultra (49mm) - 2022-09-29 at 01.38.28.png",
+          "fileSize": 54198,
+          "imageAsset": {
+            "height": 502,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/2ipCxJPdc2P2Db8tgCR9-g/{w}x{h}bb.{f}",
+            "width": 410
+          },
+          "lastModifiedDate": "2026-05-31T07:24:45Z",
+          "referenceName": "Simulator Screen Shot - Apple Watch Ultra (49mm) - 2022-09-29 at 01.38.28.png",
+          "specId": "fc7a939d-2318-525f-91b9-f294a547e77e",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "98000005-e010-8d17-8007-65e31a7ea7ed",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/98000005-e010-8d17-8007-65e31a7ea7ed"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/98000005-e010-8d17-8007-65e31a7ea7ed/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/98000005-e010-8d17-8007-65e31a7ea7ed/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-09-29T06:38:27Z",
+          "fileName": "Simulator Screen Shot - Apple Watch Ultra (49mm) - 2022-09-29 at 01.37.58.png",
+          "fileSize": 33584,
+          "imageAsset": {
+            "height": 502,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/wDkOl2p4Yf1MED-TLHj-Rw/{w}x{h}bb.{f}",
+            "width": 410
+          },
+          "lastModifiedDate": "2026-05-17T00:08:40Z",
+          "referenceName": "Simulator Screen Shot - Apple Watch Ultra (49mm) - 2022-09-29 at 01.37.58.png",
+          "specId": "fc7a939d-2318-525f-91b9-f294a547e77e",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "3a800005-e010-8d17-8013-9ecc8179ec54",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/3a800005-e010-8d17-8013-9ecc8179ec54"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/3a800005-e010-8d17-8013-9ecc8179ec54/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/3a800005-e010-8d17-8013-9ecc8179ec54/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-09-29T06:38:18Z",
+          "fileName": "iPhone 8 Generic Screenshot.png",
+          "fileSize": 229293,
+          "imageAsset": {
+            "height": 2208,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/lhouqo-404VUxMEA73bHYQ/{w}x{h}bb.{f}",
+            "width": 1242
+          },
+          "lastModifiedDate": "2026-05-19T05:15:16Z",
+          "referenceName": "iPhone 8 Generic Screenshot.png",
+          "specId": "52f8088b-1e78-583a-ae1a-d108525be0f7",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "75400005-e010-8d17-8024-a734f4fed4aa",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/75400005-e010-8d17-8024-a734f4fed4aa"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/75400005-e010-8d17-8024-a734f4fed4aa/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/75400005-e010-8d17-8024-a734f4fed4aa/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-09-29T06:38:18Z",
+          "fileName": "iPhone 11 Pro Max Off Screenshot.png",
+          "fileSize": 641625,
+          "imageAsset": {
+            "height": 2778,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/dzgSJwtgYAStShxrm3rOZg/{w}x{h}bb.{f}",
+            "width": 1284
+          },
+          "lastModifiedDate": "2026-05-29T17:32:29Z",
+          "referenceName": "iPhone 11 Pro Max Off Screenshot.png",
+          "specId": "bfac57aa-e751-5a8f-b4a9-2743e268b899",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "69800005-e010-8d17-8006-b0d2eb65030d",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/69800005-e010-8d17-8006-b0d2eb65030d"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/69800005-e010-8d17-8006-b0d2eb65030d/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/69800005-e010-8d17-8006-b0d2eb65030d/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-09-29T06:38:18Z",
+          "fileName": "Simulator Screen Shot - Apple Watch Ultra (49mm) - 2022-09-29 at 01.33.17.png",
+          "fileSize": 34361,
+          "imageAsset": {
+            "height": 502,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/qmzmqoRsKIfdOKDeDHdq4A/{w}x{h}bb.{f}",
+            "width": 410
+          },
+          "lastModifiedDate": "2026-05-19T02:51:02Z",
+          "referenceName": "Simulator Screen Shot - Apple Watch Ultra (49mm) - 2022-09-29 at 01.33.17.png",
+          "specId": "fc7a939d-2318-525f-91b9-f294a547e77e",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "29000005-e010-8d17-8019-286c4c7e4d2a",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/29000005-e010-8d17-8019-286c4c7e4d2a"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/29000005-e010-8d17-8019-286c4c7e4d2a/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/29000005-e010-8d17-8019-286c4c7e4d2a/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-07-13T21:57:50Z",
+          "fileName": "iPhone 8 Off Screenshot.png",
+          "fileSize": 246206,
+          "imageAsset": {
+            "height": 2208,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/U8skieVL7Uw4Kxi-CM4qwQ/{w}x{h}bb.{f}",
+            "width": 1242
+          },
+          "lastModifiedDate": "2022-07-13T21:57:50Z",
+          "referenceName": "iPhone 8 Off Screenshot.png",
+          "specId": "52f8088b-1e78-583a-ae1a-d108525be0f7",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "f1400005-e010-8d17-8016-9e47ba1706c8",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/f1400005-e010-8d17-8016-9e47ba1706c8"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/f1400005-e010-8d17-8016-9e47ba1706c8/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/f1400005-e010-8d17-8016-9e47ba1706c8/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-07-13T21:57:50Z",
+          "fileName": "iPhone 11 Pro Max Generic Screenshot.png",
+          "fileSize": 615950,
+          "imageAsset": {
+            "height": 2778,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/4df1Qt5aWtk2oLM0w_G4fg/{w}x{h}bb.{f}",
+            "width": 1284
+          },
+          "lastModifiedDate": "2022-07-13T21:57:50Z",
+          "referenceName": "iPhone 11 Pro Max Generic Screenshot.png",
+          "specId": "bfac57aa-e751-5a8f-b4a9-2743e268b899",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "c2c00005-e010-8d17-8003-698204ffd3b2",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/c2c00005-e010-8d17-8003-698204ffd3b2"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/c2c00005-e010-8d17-8003-698204ffd3b2/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/c2c00005-e010-8d17-8003-698204ffd3b2/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2022-07-13T21:57:50Z",
+          "fileName": "iPhone 8 Of Screenshot.png",
+          "fileSize": 245964,
+          "imageAsset": {
+            "height": 2208,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/vGm4ZQNdbd6YFmXCXr3ZzQ/{w}x{h}bb.{f}",
+            "width": 1242
+          },
+          "lastModifiedDate": "2022-07-13T21:57:50Z",
+          "referenceName": "iPhone 8 Of Screenshot.png",
+          "specId": "52f8088b-1e78-583a-ae1a-d108525be0f7",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "81400005-e010-8d17-8030-87d433617fd1",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/81400005-e010-8d17-8030-87d433617fd1"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/81400005-e010-8d17-8030-87d433617fd1/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/81400005-e010-8d17-8030-87d433617fd1/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      },
+      {
+        "attributes": {
+          "category": "APP_SCREENSHOTS_AND_PREVIEWS",
+          "createdDate": "2021-08-27T02:50:52Z",
+          "fileName": "iPhone 11 Pro Max Of Screenshot.png",
+          "fileSize": 281654,
+          "imageAsset": {
+            "height": 2778,
+            "templateUrl": "https://is1-ssl.mzstatic.com/image/thumb/ekcK3bBRAvygVJ-KjuB3mQ/{w}x{h}bb.{f}",
+            "width": 1284
+          },
+          "lastModifiedDate": "2021-08-27T02:53:06Z",
+          "referenceName": "iPhone 11 Pro Max Of Screenshot.png",
+          "specId": "bfac57aa-e751-5a8f-b4a9-2743e268b899",
+          "state": "APPROVED",
+          "stateDetails": null
+        },
+        "id": "0e400005-e010-8d17-8037-aaee9ea16d9b",
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/0e400005-e010-8d17-8037-aaee9ea16d9b"
+        },
+        "relationships": {
+          "placements": {
+            "links": {
+              "related": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/0e400005-e010-8d17-8037-aaee9ea16d9b/placements",
+              "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryImages/0e400005-e010-8d17-8037-aaee9ea16d9b/relationships/placements"
+            }
+          }
+        },
+        "type": "appAssetLibraryImages"
+      }
+    ],
+    "links": {
+      "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1e338112-a6c9-4cb6-b151-a397e915694b/placements?<redacted>"
+    },
+    "meta": {
+      "paging": {
+        "limit": 20,
+        "total": 12
+      }
+    }
+  }
+}

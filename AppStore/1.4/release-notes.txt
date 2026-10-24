@@ -1,0 +1,5 @@
+• A fresh layout for iPhone Duo, with inputs and keypad sharing the expanded display.
+• Fold-aware positioning keeps the keypad available when the inner display is partly folded.
+• Right-aligned totals and a cleaner interface make results easier to read.
+• Clear all now sits alongside the keypad for a quick restart.
+• Improved layouts for portrait and landscape on iPhone.

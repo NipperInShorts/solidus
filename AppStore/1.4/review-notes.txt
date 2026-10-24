@@ -1,0 +1,5 @@
+Solidus is a simple percent-off and percent-of calculator; no account or sign-in is required.
+
+Version 1.4 adds an adaptive iPhone Duo workspace, with calculation inputs and keypad positioned around the active display division. The app also supports portrait and landscape layouts on regular iPhones.
+
+To test: enter 25 for Percent, tap Amount and enter 128. Off displays 96.00; Of displays 32.00. Clear all is inside the darker keypad area.

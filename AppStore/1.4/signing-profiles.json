@@ -1,0 +1,16 @@
+[
+  {
+    "bundle_identifier": "com.justinnipper.solidus",
+    "profile_id": "UWQ48NPF84",
+    "uuid": "386e8055-c1fa-40c8-b02c-f6e5ef7d8a4a",
+    "name": "Solidus iPhone App Store 2026-10-24",
+    "expiration": "2027-10-23T22:12:37"
+  },
+  {
+    "bundle_identifier": "com.justinnipper.solidus.watchkitapp",
+    "profile_id": "T8M4NL6JLC",
+    "uuid": "6fc0a4b8-62e8-4fa5-905d-4d1e939f26d6",
+    "name": "Solidus Watch App Store 2026-10-24",
+    "expiration": "2027-10-23T22:12:37"
+  }
+]

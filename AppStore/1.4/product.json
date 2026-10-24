@@ -1,0 +1,31 @@
+{
+  "name": "Solidus",
+  "primary_locale": "en-US",
+  "audience": "People who want to calculate discounts and percentages quickly, without a full calculator.",
+  "features": [
+    {
+      "id": "duo-workspace",
+      "priority": 1,
+      "benefit": "Room for both.",
+      "subhead": "Your inputs above. Your keypad below.",
+      "proof": "The verified portrait half-fold capture shows the calculation panel above the horizontal hinge and every key in the lower panel.",
+      "capture": "Verified 90-degree portrait half-fold, captured October 23 at 19:40; production UI is unchanged apart from release version."
+    },
+    {
+      "id": "discount",
+      "priority": 2,
+      "benefit": "Know the final price.",
+      "subhead": "Percent off, without the extra steps.",
+      "proof": "The actual calculator shows 25% Off 128 with Total 96.00.",
+      "capture": "Duo outer display, enter 25 and 128, choose Off."
+    },
+    {
+      "id": "percentage",
+      "priority": 3,
+      "benefit": "Find your percentage.",
+      "subhead": "Switch from Off to Of with a tap.",
+      "proof": "The actual calculator shows 18% Of 86 with Total 15.48.",
+      "capture": "Duo outer display, enter 18 and 86, choose Of."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>app-store-connect</string>
+	<key>destination</key>
+	<string>upload</string>
+	<key>teamID</key>
+	<string>643KA5HG62</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>signingCertificate</key>
+	<string>4079978DEB0431C21270E31ABC3BA998907C7EC9</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.justinnipper.solidus</key>
+		<string>386e8055-c1fa-40c8-b02c-f6e5ef7d8a4a</string>
+		<key>com.justinnipper.solidus.watchkitapp</key>
+		<string>6fc0a4b8-62e8-4fa5-905d-4d1e939f26d6</string>
+	</dict>
+	<key>manageAppVersionAndBuildNumber</key>
+	<false/>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>stripSwiftSymbols</key>
+	<true/>
+</dict>
+</plist>

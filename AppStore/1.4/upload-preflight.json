@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "kind": "upload",
+  "data": {
+    "dry_run": true,
+    "plan": {
+      "app_id": "1577127191",
+      "version_id": "eaa9347e-0bd9-4235-8f2c-0461b49ad074",
+      "version_state": "PREPARE_FOR_SUBMISSION",
+      "library_id": "1577127191",
+      "replace": false,
+      "sets": [
+        {
+          "set": "en-US-duo",
+          "locale": "en-US",
+          "localization_id": "1e338112-a6c9-4cb6-b151-a397e915694b",
+          "group": "IPHONE_DUO_PROFILE",
+          "placement_type": "APP_SCREENSHOT",
+          "before": [],
+          "desired": [
+            {
+              "shot": "duo-workspace",
+              "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/duo-workspace.png",
+              "sha256": "ba4429c4ccfcfba4f7fde5a5c7c5e564d19927a29ad3d5d58b03bb941f74e07a",
+              "spec_id": "5d458eef-8339-4a1f-a484-83d53834cfec",
+              "placement_id": null,
+              "image_id": null
+            },
+            {
+              "shot": "discount",
+              "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/discount.png",
+              "sha256": "76bcae7b8dd03f6d6377b3ecf0dc58afa3be2a1111c906e3c2f53c3b2b2e20a7",
+              "spec_id": "205e7ab6-a23a-4ee2-b327-0a99ec2a2520",
+              "placement_id": null,
+              "image_id": null
+            },
+            {
+              "shot": "percentage",
+              "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/percentage.png",
+              "sha256": "1f57212b0cb1bd9227bbef3b5fe161031d637868fd611d960fd74282d4b49fb4",
+              "spec_id": "205e7ab6-a23a-4ee2-b327-0a99ec2a2520",
+              "placement_id": null,
+              "image_id": null
+            }
+          ],
+          "remove": [],
+          "preserve": []
+        }
+      ],
+      "assets": [
+        {
+          "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/duo-workspace.png",
+          "width": 2007,
+          "height": 2853,
+          "bytes": 225811,
+          "sha256": "ba4429c4ccfcfba4f7fde5a5c7c5e564d19927a29ad3d5d58b03bb941f74e07a",
+          "set": "en-US-duo",
+          "shot": "duo-workspace"
+        },
+        {
+          "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/discount.png",
+          "width": 1398,
+          "height": 2034,
+          "bytes": 242406,
+          "sha256": "76bcae7b8dd03f6d6377b3ecf0dc58afa3be2a1111c906e3c2f53c3b2b2e20a7",
+          "set": "en-US-duo",
+          "shot": "discount"
+        },
+        {
+          "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/percentage.png",
+          "width": 1398,
+          "height": 2034,
+          "bytes": 237747,
+          "sha256": "1f57212b0cb1bd9227bbef3b5fe161031d637868fd611d960fd74282d4b49fb4",
+          "set": "en-US-duo",
+          "shot": "percentage"
+        }
+      ]
+    },
+    "next_step": "Review the files, removals and order, then use upload --apply --journal NEW_PATH with the same selection."
+  }
+}

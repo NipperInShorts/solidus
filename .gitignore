@@ -88,3 +88,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# macOS metadata and packaged screenshot downloads
+.DS_Store
+AppStore/*/solidus-*-screenshots.zip
+AppStore/*/solidus-*-screenshots/

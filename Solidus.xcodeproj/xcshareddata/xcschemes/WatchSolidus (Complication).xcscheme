@@ -61,7 +61,6 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A593AFBC287F250500F6DA81"
             BuildableName = "Solidus.app"
-            BlueprintName = "WatchSolidus"
             ReferencedContainer = "container:Solidus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,7 +78,6 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A593AFBC287F250500F6DA81"
             BuildableName = "Solidus.app"
-            BlueprintName = "WatchSolidus"
             ReferencedContainer = "container:Solidus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

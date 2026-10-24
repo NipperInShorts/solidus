@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "app_name": "Solidus",
+  "audience": "People who want to calculate discounts and percentages quickly, without a full calculator.",
+  "app_id": "1577127191",
+  "version_id": "eaa9347e-0bd9-4235-8f2c-0461b49ad074",
+  "profile": "default",
+  "theme": {
+    "background": "#080D20",
+    "foreground": "#E8F2FF",
+    "accent": "#ECCEF6",
+    "font": "/System/Library/Fonts/SFNS.ttf",
+    "font_bold": "/System/Library/Fonts/SFNS.ttf"
+  },
+  "sets": [
+    {
+      "id": "en-US-duo",
+      "locale": "en-US",
+      "group": "IPHONE_DUO_PROFILE",
+      "localization_id": "1e338112-a6c9-4cb6-b151-a397e915694b",
+      "size": [
+        1398,
+        2034
+      ],
+      "shots": [
+        {
+          "id": "duo-workspace",
+          "feature": "duo-workspace",
+          "headline": "Room for both.",
+          "subhead": "Your inputs above. Your keypad below.",
+          "benefit": "Room for both.",
+          "proof": "The verified portrait half-fold capture shows the calculation panel above the horizontal hinge and every key in the lower panel.",
+          "source": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/captures/en-US/inner-half-fold.png",
+          "size": [
+            2007,
+            2853
+          ],
+          "shows_app_ui": true,
+          "copy_needs_review": false,
+          "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/duo-workspace.png"
+        },
+        {
+          "id": "discount",
+          "feature": "discount",
+          "headline": "Know the final price.",
+          "subhead": "Percent off, without the extra steps.",
+          "benefit": "Know the final price.",
+          "proof": "The actual calculator shows 25% Off 128 with Total 96.00.",
+          "source": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/captures/en-US/outer-off.png",
+          "shows_app_ui": true,
+          "copy_needs_review": false,
+          "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/discount.png"
+        },
+        {
+          "id": "percentage",
+          "feature": "percentage",
+          "headline": "Find your percentage.",
+          "subhead": "Switch from Off to Of with a tap.",
+          "benefit": "Find your percentage.",
+          "proof": "The actual calculator shows 18% Of 86 with Total 15.48.",
+          "source": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/captures/en-US/outer-of.png",
+          "shows_app_ui": true,
+          "copy_needs_review": false,
+          "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/percentage.png"
+        }
+      ]
+    }
+  ]
+}

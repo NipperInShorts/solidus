@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "kind": "validate",
+  "data": {
+    "files": [
+      {
+        "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/duo-workspace.png",
+        "width": 2007,
+        "height": 2853,
+        "bytes": 225811,
+        "sha256": "ba4429c4ccfcfba4f7fde5a5c7c5e564d19927a29ad3d5d58b03bb941f74e07a",
+        "set": "en-US-duo",
+        "shot": "duo-workspace"
+      },
+      {
+        "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/discount.png",
+        "width": 1398,
+        "height": 2034,
+        "bytes": 242406,
+        "sha256": "76bcae7b8dd03f6d6377b3ecf0dc58afa3be2a1111c906e3c2f53c3b2b2e20a7",
+        "set": "en-US-duo",
+        "shot": "discount"
+      },
+      {
+        "file": "/Users/justinnipper/Documents/projects/solidus/AppStore/1.4/rendered/en-US-duo/percentage.png",
+        "width": 1398,
+        "height": 2034,
+        "bytes": 237747,
+        "sha256": "1f57212b0cb1bd9227bbef3b5fe161031d637868fd611d960fd74282d4b49fb4",
+        "set": "en-US-duo",
+        "shot": "percentage"
+      }
+    ],
+    "catalog": "Bundled snapshot; upload always revalidates against Apple's live catalog",
+    "advice": {
+      "principles": [
+        "Lead with the main user outcome; prove it with the actual app screen.",
+        "Make the first three images a compact story: outcome, core action, differentiator.",
+        "Use one benefit per image. Start with 3–7 words per headline; this is a heuristic, not an Apple limit.",
+        "Use large, high-contrast type; inspect the set at a small App Store search-result size.",
+        "Capture populated, stable UI with fictional data. Avoid login, splash and loading screens.",
+        "Use captures from each device layout. Never stretch a phone screen into an iPad or Duo layout.",
+        "Localize both captions and visible app UI; have a native speaker review the final pixels.",
+        "Show real app functionality in more than half of every device/locale set; overlays must leave it visible.",
+        "Test one hypothesis with Product Page Optimization. Do not assume a design guarantees conversion lift."
+      ],
+      "findings": [],
+      "judgment": "Editorial heuristics, not a conversion prediction or visual/OCR review.",
+      "experiment": {
+        "hypothesis": "An outcome-led first screenshot will improve download conversion versus the current first screenshot.",
+        "change": "First-image headline only; hold other assets and locales constant.",
+        "measure": "Use Apple Product Page Optimization conversion and confidence; review downstream retention/purchase quality.",
+        "stop": "Use Apple's duration estimate; do not declare a winner from a small early swing."
+      }
+    }
+  }
+}
